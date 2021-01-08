@@ -68,9 +68,9 @@ main (int argc, char *argv[])
 	/* auth */
 	char login[64];
 	char password[64];
-	printf("Введите логин: ");
+	printf("Login: ");
 	scanf("%[^\n]%*c", login);
-	printf("Введите пароль: ");
+	printf("Password: ");
 	scanf("%[^\n]%*c", password);
 
 	if (compute_1(host, 2, login, password, 0)){

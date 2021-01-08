@@ -1,6 +1,4 @@
-/*The IDL File  --- name IDL.x*/
-
-/*Structure to hold the 2 values to be used in computation*/
+/*Structures used to pass as arguments*/
 
 struct credentials{
     char login[64];
