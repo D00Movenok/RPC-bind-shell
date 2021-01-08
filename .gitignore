@@ -1,0 +1,4 @@
+.vscode/
+*.o
+IDL_client
+IDL_server
